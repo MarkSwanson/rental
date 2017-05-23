@@ -19,3 +19,8 @@ std = ["stable_deref_trait/std"]
 [dependencies]
 rental-impl = "=0.4.10"
 stable_deref_trait = { version = "1.0.0", default-features = false }
+capnp = "*"
+
+[build-dependencies]
+capnpc = "*"
+
